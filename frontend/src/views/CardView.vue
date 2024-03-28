@@ -7,6 +7,9 @@
   <div class="card-container" @mousemove="rotateCard" @mouseout="resetCard">
     <div class="card"></div>
   </div>
+  <div class="card-container" @mousemove="rotateCard" @mouseout="resetCard">
+    <div class="card"></div>
+  </div>
 </template>
 <script>
 export default {
